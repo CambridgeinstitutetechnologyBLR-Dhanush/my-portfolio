@@ -48,7 +48,7 @@ export default function Skills() {
               Skills &amp; Technologies
             </h2>
             <p className="text-sm text-neutral-600 max-w-xl">
-              Verified technical capabilities across languages, full-stack web engineering, databases, and AI automation.
+              Demonstrated technical capabilities across programming languages, web applications, databases, and AI automation.
             </p>
           </div>
 

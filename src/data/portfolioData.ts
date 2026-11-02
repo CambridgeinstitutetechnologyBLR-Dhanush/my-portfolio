@@ -7,12 +7,12 @@ import {
 
 export const personalInfo = {
   name: 'Dhanush',
-  title: 'Software Developer | Full-Stack Developer',
-  headline: 'Entry-level Software Engineer · Bengaluru',
-  status: 'Open to Software Development Opportunities',
-  bio: 'I build AI-powered web apps and practical software solutions that people can actually use. Experienced in JavaScript, Python, RAG pipelines, and cloud database integrations.',
+  title: 'Aspiring Software Engineer | AI Application Developer',
+  headline: 'I build AI-powered web apps that people can actually use.',
+  status: 'Open to Software Engineering & AI Opportunities',
+  bio: 'I build AI-powered web apps that people can actually use.',
   summary:
-    'Electronics and Communication Engineering student with strong skills in Python, JavaScript, SQL, and Frontend Development. Experienced in building scalable web applications, retrieval-augmented generation (RAG) systems, LLM-powered tools, and workflow automation platforms using modern technologies. Passionate about software development, full-stack architectures, and creating impactful digital products.',
+    'Engineering student passionate about software development and AI-powered applications. I work with Python, JavaScript, HTML, CSS, and SQL to build practical applications that solve real-world problems. I enjoy exploring Generative AI, integrating AI capabilities into applications, and continuously improving my programming skills.',
   degree: 'B.E. in Electronics and Communication Engineering',
   institution: 'Cambridge Institute of Technology, KR Puram, Bengaluru',
   cgpa: '9.3 / 10',
@@ -28,19 +28,19 @@ export const personalInfo = {
   coreFocus: [
     {
       title: 'Web Application Engineering',
-      description: 'Developing responsive modern web interfaces integrated with cloud databases and secure authentication.'
+      description: 'Developing responsive web interfaces using JavaScript, HTML, and CSS integrated with cloud databases.'
     },
     {
-      title: 'AI & RAG Applications',
-      description: 'Architecting retrieval-augmented generation platforms with LangChain, vector search, and Gemini LLMs.'
+      title: 'Generative AI & LLMs',
+      description: 'Exploring Generative AI APIs and integrating intelligent conversational and speech capabilities into user-facing apps.'
     },
     {
       title: 'Workflow Automation',
-      description: 'Automating multi-step digital workflows, API integrations, and event-driven data pipelines using n8n and Make.'
+      description: 'Building multi-platform automation pipelines with tools like n8n and Make to streamline data processing.'
     },
     {
-      title: 'Core Software Principles',
-      description: 'Applying solid data structure foundations, modular architecture, and version control best practices.'
+      title: 'Practical Problem Solving',
+      description: 'Applying solid programming fundamentals in Python and SQL with Git version control best practices.'
     }
   ]
 };
@@ -48,7 +48,7 @@ export const personalInfo = {
 export const skillCategories: SkillCategory[] = [
   {
     title: 'Programming Languages',
-    skills: ['Python', 'JavaScript', 'SQL', 'C']
+    skills: ['Python', 'JavaScript', 'SQL']
   },
   {
     title: 'Frontend Development',
@@ -60,7 +60,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     title: 'AI & Automation',
-    skills: ['RAG', 'LLMs', 'LangChain', 'n8n', 'Make', 'Automation Workflows']
+    skills: ['Generative AI', 'n8n', 'Make', 'Automation Workflows']
   },
   {
     title: 'Developer Tools & Platforms',
@@ -74,12 +74,12 @@ export const projects: Project[] = [
     title: 'Edureach',
     category: 'AI-Powered College Intelligence Platform',
     description:
-      'A college counseling and intelligence platform that grounds answers in verified data using vector retrieval.',
+      'A college intelligence platform featuring intelligent AI search and cloud database integration to provide helpful academic guidance.',
     bullets: [
       'Built a college counseling platform with responsive modern web interfaces and cloud database integration.',
-      'Added retrieval-augmented generation with LangChain and MongoDB Atlas Vector Search, so answers stay grounded in the platform\'s own data.'
+      'Integrated intelligent search and AI responses so answers stay grounded in verified platform data.'
     ],
-    technologies: ['JavaScript', 'LangChain', 'RAG', 'MongoDB Atlas', 'HTML', 'CSS'],
+    technologies: ['JavaScript', 'MongoDB Atlas', 'HTML', 'CSS', 'Generative AI'],
     liveUrl: 'https://edureach-platform-8kaw.vercel.app/',
     githubUrl: 'https://github.com/CambridgeinstitutetechnologyBLR-Dhanush/edureach-platform'
   },
@@ -121,7 +121,7 @@ export const projects: Project[] = [
       'Created a language learning app that uses Google Gemini AI to correct grammar and vocabulary.',
       'Implemented speech recognition with the Web Speech API and spoken replies with Google TTS for interactive pronunciation practice.'
     ],
-    technologies: ['Google Gemini', 'Web Speech API', 'Google TTS', 'JavaScript', 'AI', 'HTML', 'CSS'],
+    technologies: ['Google Gemini', 'Web Speech API', 'Google TTS', 'JavaScript', 'Generative AI', 'HTML', 'CSS'],
     liveUrl: 'https://ai-voice-language-tutor.onrender.com/',
     githubUrl: 'https://github.com/CambridgeinstitutetechnologyBLR-Dhanush/ai-voice-language-tutor'
   }

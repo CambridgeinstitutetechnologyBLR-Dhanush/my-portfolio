@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-// Generate a valid, clean standard single-page PDF 1.4 document
 function generatePDF() {
   const content = `%PDF-1.4
 1 0 obj
@@ -14,7 +13,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
 endobj
 4 0 obj
-<< /Length 2600 >>
+<< /Length 2650 >>
 stream
 BT
 /F1 22 Tf
@@ -22,7 +21,7 @@ BT
 (DHANUSH) Tj
 /F2 10 Tf
 0 -18 Td
-(Software Developer | Full-Stack Developer   -   Bengaluru, Karnataka, India) Tj
+(Aspiring Software Engineer | AI Application Developer   -   Bengaluru, Karnataka, India) Tj
 0 -14 Td
 (Email: kulkarnidhanush8@gmail.com   |   Phone: +91 89043 88749) Tj
 0 -14 Td
@@ -35,11 +34,11 @@ BT
 (PROFESSIONAL SUMMARY) Tj
 /F2 9.5 Tf
 0 -13 Td
-(Electronics and Communication Engineering student with strong skills in Python, JavaScript, SQL, and Frontend) Tj
+(Engineering student passionate about software development and AI-powered applications. I work with) Tj
 0 -12 Td
-(Development. Experienced in building scalable web applications, retrieval-augmented generation (RAG) systems,) Tj
+(Python, JavaScript, HTML, CSS, and SQL to build practical applications that solve real-world problems.) Tj
 0 -12 Td
-(LLM-powered tools, and workflow automation platforms. Passionate about creating impactful software solutions.) Tj
+(I enjoy exploring Generative AI, integrating AI capabilities into applications, and continuously improving my skills.) Tj
 
 /F1 12 Tf
 0 -20 Td
@@ -55,13 +54,13 @@ BT
 (TECHNICAL SKILLS) Tj
 /F2 9.5 Tf
 0 -13 Td
-(Programming Languages: Python, JavaScript, SQL, C) Tj
+(Programming Languages: Python, JavaScript, SQL) Tj
 0 -12 Td
 (Frontend Development: HTML, CSS, Flexbox, Bootstrap) Tj
 0 -12 Td
 (Databases & Cloud: Supabase, MongoDB Atlas) Tj
 0 -12 Td
-(AI & Automation: Retrieval-Augmented Generation (RAG), LLMs, LangChain, n8n, Make, Automation Workflows) Tj
+(AI & Automation: Generative AI, n8n, Make, Automation Workflows) Tj
 0 -12 Td
 (Tools & Platforms: Git, GitHub, VS Code, Vercel) Tj
 
@@ -73,9 +72,9 @@ BT
 (1. Edureach - AI-Powered College Intelligence Platform) Tj
 /F2 9 Tf
 0 -12 Td
-(- Built a full-stack college counseling platform with responsive interfaces and cloud database integration.) Tj
+(- Built a college counseling platform with responsive modern web interfaces and cloud database integration.) Tj
 0 -11 Td
-(- Added retrieval-augmented generation with LangChain & MongoDB Atlas Vector Search for grounded AI answers.) Tj
+(- Integrated intelligent search and AI responses so answers stay grounded in verified platform data.) Tj
 0 -11 Td
 (  Demo: https://edureach-platform-8kaw.vercel.app/   |   Code: github.com/.../edureach-platform) Tj
 
@@ -138,12 +137,12 @@ xref
 0000000060 00000 n 
 0000000117 00000 n 
 0000000257 00000 n 
-0000002930 00000 n 
-0000003013 00000 n 
+0000002980 00000 n 
+0000003063 00000 n 
 trailer
 << /Size 7 /Root 1 0 R >>
 startxref
-3092
+3142
 %%EOF`;
 
   const targetPath = path.join(__dirname, '..', 'public', 'resume.pdf');

@@ -13,18 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dhanush | Software Developer | Full-Stack Developer",
+  title: "Dhanush | Aspiring Software Engineer | AI Application Developer",
   description:
-    "Personal portfolio of Dhanush, a Software Developer seeking entry-level and Software Development Engineer (SDE) roles. Specializing in Python, JavaScript, RAG pipelines, cloud database integrations, and practical software solutions.",
+    "Engineering student passionate about software development and AI-powered applications. I work with Python, JavaScript, HTML, CSS, and SQL to build practical applications that solve real-world problems. I enjoy exploring Generative AI, integrating AI capabilities into applications, and continuously improving my programming skills.",
   keywords: [
     "Dhanush",
-    "Software Developer",
-    "Full-Stack Developer",
-    "SDE",
+    "Aspiring Software Engineer",
+    "AI Application Developer",
     "Python",
     "JavaScript",
-    "Portfolio",
-    "Software Engineer"
+    "HTML",
+    "CSS",
+    "SQL",
+    "Portfolio"
   ],
   authors: [{ name: "Dhanush" }],
   creator: "Dhanush",
@@ -32,15 +33,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://dhanush-portfolio.vercel.app",
-    title: "Dhanush | Software Developer",
+    title: "Dhanush | Aspiring Software Engineer | AI Application Developer",
     description:
-      "Software Developer building AI-powered web applications and practical software solutions.",
+      "I build AI-powered web apps that people can actually use.",
     siteName: "Dhanush Portfolio"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dhanush | Software Developer",
-    description: "Software Developer Portfolio."
+    title: "Dhanush | Aspiring Software Engineer",
+    description: "I build AI-powered web apps that people can actually use."
   },
   robots: {
     index: true,

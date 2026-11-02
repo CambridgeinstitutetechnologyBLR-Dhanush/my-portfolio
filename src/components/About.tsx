@@ -8,27 +8,27 @@ import { personalInfo } from '@/data/portfolioData';
 export default function About() {
   const pillars = [
     {
-      title: 'Full-Stack Web Systems',
+      title: 'Web Application Engineering',
       description:
-        'Building responsive, modular frontend interfaces in modern JavaScript integrated with cloud databases and secure authentication.',
+        'Building responsive modern web interfaces using JavaScript, HTML, and CSS integrated with cloud databases and secure authentication.',
       icon: Layers,
     },
     {
-      title: 'AI & RAG Applications',
+      title: 'Generative AI & LLMs',
       description:
-        'Engineering intelligent applications using retrieval-augmented generation (RAG) with LangChain and vector search to ground answers in real data.',
+        'Exploring Generative AI APIs, intelligent conversational tools, and speech integration into practical user applications.',
       icon: Bot,
     },
     {
       title: 'Workflow Automation',
       description:
-        'Designing end-to-end multi-platform automation pipelines with tools like n8n and Make to streamline business workflows and data sync.',
+        'Designing end-to-end multi-platform automation pipelines with tools like n8n and Make to streamline data processing and routine tasks.',
       icon: Cpu,
     },
     {
-      title: 'Clean Engineering & Fundamentals',
+      title: 'Programming Fundamentals',
       description:
-        'Writing clean, maintainable code adhering to solid data structure fundamentals, version control, and modular architecture.',
+        'Writing clean, maintainable code in Python and SQL with modular design principles, version control, and continuous improvement.',
       icon: GitBranch,
     },
   ];
@@ -58,7 +58,7 @@ export default function About() {
           </div>
 
           <p className="text-sm text-neutral-600 max-w-xl">
-            Software developer dedicated to full-stack engineering, AI-backed web applications, and practical problem solving.
+            {personalInfo.title}
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export default function About() {
               {personalInfo.summary}
             </p>
             <p className="text-sm text-neutral-600 leading-relaxed">
-              Currently pursuing a Bachelor of Engineering at Cambridge Institute of Technology, Bengaluru (maintaining a 9.3 CGPA), I combine strong academic rigor with hands-on software development. I have built and deployed full-stack applications with LangChain RAG pipelines, cloud authentication, and automation architectures.
+              Currently pursuing a Bachelor of Engineering in Electronics and Communication at Cambridge Institute of Technology, Bengaluru (CGPA 9.3), I enjoy transforming ideas into functional software solutions. I focus on developing clean, practical applications that leverage modern web technologies and Generative AI.
             </p>
 
             <div className="pt-2 flex flex-wrap gap-2 text-xs font-medium text-neutral-700">
@@ -79,7 +79,7 @@ export default function About() {
               </span>
               <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-neutral-100 border border-neutral-200">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-                Seeking Entry-Level Software Engineer &amp; SDE Roles
+                Aspiring Software Engineer &amp; AI App Developer
               </span>
             </div>
           </div>
@@ -92,25 +92,25 @@ export default function About() {
               <li className="flex items-start gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 mt-1.5 shrink-0" />
                 <span>
-                  <strong className="text-neutral-900">Frontend:</strong> HTML, CSS, Flexbox, Bootstrap, responsive component systems.
+                  <strong className="text-neutral-900">Frontend:</strong> HTML, CSS, Flexbox, Bootstrap, JavaScript.
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 mt-1.5 shrink-0" />
                 <span>
-                  <strong className="text-neutral-900">Databases &amp; Cloud:</strong> Supabase, MongoDB Atlas Vector Search, SQL.
+                  <strong className="text-neutral-900">Databases &amp; Cloud:</strong> Supabase, MongoDB Atlas, SQL.
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 mt-1.5 shrink-0" />
                 <span>
-                  <strong className="text-neutral-900">AI Integration:</strong> LangChain RAG, Gemini LLMs, Web Speech API.
+                  <strong className="text-neutral-900">Generative AI:</strong> Gemini AI API, Web Speech API, intelligent workflows.
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 mt-1.5 shrink-0" />
                 <span>
-                  <strong className="text-neutral-900">Automation:</strong> n8n, Make, trigger-based multi-app workflows.
+                  <strong className="text-neutral-900">Automation:</strong> n8n, Make, multi-platform automated pipelines.
                 </span>
               </li>
             </ul>

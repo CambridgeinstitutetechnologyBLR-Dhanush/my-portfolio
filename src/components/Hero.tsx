@@ -54,19 +54,19 @@ export default function Hero({ onOpenResume }: HeroProps) {
             />
           </div>
           <div>
-            <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-neutral-100 border border-neutral-200 shadow-2xs mb-1">
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-neutral-100 border border-neutral-200 shadow-2xs mb-1">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </span>
               <span className="text-[11px] font-mono font-medium text-neutral-800 tracking-tight">
-                Open to Opportunities
+                {personalInfo.name}
               </span>
             </div>
-            <h2 className="text-xl font-bold text-neutral-900 tracking-tight">
-              {personalInfo.name}
+            <h2 className="text-base font-bold text-neutral-900 tracking-tight leading-tight">
+              {personalInfo.title}
             </h2>
-            <p className="text-xs text-neutral-600 font-mono">
+            <p className="text-xs text-neutral-600 font-mono mt-0.5">
               Bengaluru, India · CGPA 9.3
             </p>
           </div>
@@ -75,32 +75,28 @@ export default function Hero({ onOpenResume }: HeroProps) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           {/* Main Hero Narrative Column */}
           <div className="lg:col-span-7 space-y-6">
-            {/* Desktop Status Badge */}
-            <div className="hidden lg:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-neutral-100 border border-neutral-200 shadow-2xs">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-              </span>
-              <span className="text-xs font-mono font-medium text-neutral-800 tracking-tight">
-                {personalInfo.status}
-              </span>
+            {/* Desktop Status & Identity Badge */}
+            <div className="hidden lg:flex items-center gap-2 flex-wrap">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-neutral-100 border border-neutral-200 shadow-2xs">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                </span>
+                <span className="text-xs font-mono font-medium text-neutral-800 tracking-tight">
+                  {personalInfo.name} · {personalInfo.title}
+                </span>
+              </div>
             </div>
 
-            {/* Name & Headline */}
-            <div className="space-y-2">
-              <span className="text-xs font-mono uppercase tracking-wider text-neutral-500 font-semibold block">
-                {personalInfo.headline}
-              </span>
-              <h1 className="text-4xl sm:text-5xl font-extrabold text-neutral-950 tracking-tight leading-[1.12]">
-                {personalInfo.name}
+            {/* Main Headline as specified */}
+            <div className="space-y-3">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-neutral-950 tracking-tight leading-[1.18]">
+                &ldquo;I build AI-powered web apps that people can actually use.&rdquo;
               </h1>
-              <p className="text-lg sm:text-xl font-semibold text-neutral-700 tracking-tight">
-                {personalInfo.title}
-              </p>
             </div>
 
-            {/* Lead Narrative directly from resume */}
-            <p className="text-sm sm:text-base text-neutral-600 leading-relaxed font-normal">
+            {/* Supporting Description as specified */}
+            <p className="text-sm sm:text-base text-neutral-700 leading-relaxed font-normal">
               {personalInfo.summary}
             </p>
 
@@ -180,7 +176,7 @@ export default function Hero({ onOpenResume }: HeroProps) {
               <div className="relative w-full aspect-3/3.8 rounded-xl overflow-hidden bg-neutral-100 border border-neutral-200 shadow-inner group">
                 <Image
                   src="/images/profile.jpg"
-                  alt="Dhanush - Software Developer Profile Photograph"
+                  alt="Dhanush - Aspiring Software Engineer Profile Photograph"
                   fill
                   priority
                   className="object-cover object-top transition-transform duration-500 group-hover:scale-102"
@@ -190,7 +186,7 @@ export default function Hero({ onOpenResume }: HeroProps) {
                 {/* Subtle verified badge overlay */}
                 <div className="absolute bottom-3 left-3 bg-neutral-900/85 backdrop-blur-xs text-white px-3 py-1 rounded-md text-[11px] font-mono font-medium flex items-center gap-1.5 shadow-xs">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                  <span>Dhanush · Developer</span>
+                  <span>Dhanush · AI App Developer</span>
                 </div>
               </div>
 
@@ -200,6 +196,11 @@ export default function Hero({ onOpenResume }: HeroProps) {
                   Academic &amp; Profile Summary
                 </span>
                 <dl className="grid grid-cols-3 gap-y-2 text-xs">
+                  <dt className="text-neutral-500 font-mono">Role:</dt>
+                  <dd className="col-span-2 text-neutral-900 font-medium">
+                    {personalInfo.title}
+                  </dd>
+
                   <dt className="text-neutral-500 font-mono">Degree:</dt>
                   <dd className="col-span-2 text-neutral-900 font-medium">
                     {personalInfo.degree}

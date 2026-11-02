@@ -23,7 +23,7 @@ export default function Projects() {
             Featured Projects
           </h2>
           <p className="text-sm text-neutral-600 max-w-xl">
-            Four production full-stack and AI-powered applications with public GitHub source code and live deployments.
+            Four production web and AI-powered applications with public GitHub source code and live deployments.
           </p>
         </div>
 

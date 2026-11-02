@@ -84,7 +84,7 @@ export default function Navbar({ onOpenResume }: NavbarProps) {
                 {personalInfo.name}
               </span>
               <span className="text-[11px] font-mono text-neutral-500 font-normal leading-tight hidden sm:inline-block">
-                Software Developer
+                Aspiring Software Engineer
               </span>
             </div>
           </a>

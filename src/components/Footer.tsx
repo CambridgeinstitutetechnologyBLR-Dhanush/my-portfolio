@@ -96,7 +96,7 @@ export default function Footer() {
             © {currentYear} {personalInfo.name}. All rights reserved.
           </p>
           <p>
-            Full-Stack Software Developer Portfolio
+            Aspiring Software Engineer | AI Application Developer
           </p>
         </div>
       </div>
