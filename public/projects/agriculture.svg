@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="agriBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#062e1e" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" fill="url(#agriBg)" rx="16" />
+
+  <!-- Mockup Container -->
+  <g transform="translate(60, 50)">
+    <rect width="1080" height="580" rx="12" fill="#0b1a14" stroke="#164e3b" stroke-width="1" />
+    
+    <!-- Top Header -->
+    <rect width="1080" height="52" rx="12" fill="#0d241b" />
+    <circle cx="28" cy="26" r="6" fill="#ef4444" />
+    <circle cx="48" cy="26" r="6" fill="#f59e0b" />
+    <circle cx="68" cy="26" r="6" fill="#10b981" />
+
+    <rect x="110" y="12" width="540" height="28" rx="6" fill="#133628" />
+    <text x="130" y="30" fill="#6ee7b7" font-family="-apple-system, sans-serif" font-size="12">https://agri-smart-dashboard.internal/telemetry/live-nodes</text>
+
+    <rect x="910" y="14" width="140" height="24" rx="12" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.4" />
+    <circle cx="925" cy="26" r="4" fill="#10b981" />
+    <text x="938" y="30" fill="#6ee7b7" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">ARDUINO CONNECTED</text>
+
+    <!-- Sidebar -->
+    <rect x="0" y="52" width="220" height="528" fill="#08140f" stroke="#164e3b" stroke-width="1" />
+    <g transform="translate(24, 76)">
+      <rect width="32" height="32" rx="8" fill="url(#emeraldGrad)" />
+      <text x="16" y="22" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">🌱</text>
+      <text x="44" y="21" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">AgriMonitor</text>
+      <text x="44" y="33" fill="#6ee7b7" font-family="-apple-system, sans-serif" font-size="10">IoT Telemetry Hub</text>
+    </g>
+
+    <g transform="translate(20, 140)">
+      <rect width="180" height="36" rx="6" fill="#133628" />
+      <text x="24" y="23" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13" font-weight="600">Sensor Telemetry</text>
+      <text x="24" y="63" fill="#6ee7b7" fill-opacity="0.6" font-family="-apple-system, sans-serif" font-size="13">Moisture Mapping</text>
+      <text x="24" y="103" fill="#6ee7b7" fill-opacity="0.6" font-family="-apple-system, sans-serif" font-size="13">Crop Recommender</text>
+      <text x="24" y="143" fill="#6ee7b7" fill-opacity="0.6" font-family="-apple-system, sans-serif" font-size="13">Fertilizer Schedule</text>
+    </g>
+
+    <!-- Main Section -->
+    <g transform="translate(250, 75)">
+      <text x="0" y="20" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="20" font-weight="700">Smart Agriculture Real-Time Node Feed</text>
+      <text x="0" y="40" fill="#6ee7b7" font-family="-apple-system, sans-serif" font-size="12">Next.js • React • Python Data Engine • Soil Telemetry</text>
+
+      <!-- Metric Cards -->
+      <g transform="translate(0, 60)">
+        <!-- Metric 1 -->
+        <rect width="180" height="90" rx="8" fill="#0e261d" stroke="#164e3b" stroke-width="1" />
+        <text x="16" y="26" fill="#6ee7b7" font-family="-apple-system, sans-serif" font-size="11">SOIL MOISTURE</text>
+        <text x="16" y="58" fill="#34d399" font-family="-apple-system, sans-serif" font-size="26" font-weight="700">68.4%</text>
+        <text x="16" y="76" fill="#a7f3d0" font-family="-apple-system, sans-serif" font-size="11">Optimal root zone</text>
+
+        <!-- Metric 2 -->
+        <rect x="200" width="180" height="90" rx="8" fill="#0e261d" stroke="#164e3b" stroke-width="1" />
+        <text x="216" y="26" fill="#6ee7b7" font-family="-apple-system, sans-serif" font-size="11">TEMPERATURE</text>
+        <text x="216" y="58" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="26" font-weight="700">24.2 °C</text>
+        <text x="216" y="76" fill="#a7f3d0" font-family="-apple-system, sans-serif" font-size="11">Ambient probe 01</text>
+
+        <!-- Metric 3 -->
+        <rect x="400" width="180" height="90" rx="8" fill="#0e261d" stroke="#164e3b" stroke-width="1" />
+        <text x="416" y="26" fill="#6ee7b7" font-family="-apple-system, sans-serif" font-size="11">SOIL PH VALUE</text>
+        <text x="416" y="58" fill="#60a5fa" font-family="-apple-system, sans-serif" font-size="26" font-weight="700">6.7 pH</text>
+        <text x="416" y="76" fill="#a7f3d0" font-family="-apple-system, sans-serif" font-size="11">Neutral equilibrium</text>
+
+        <!-- Metric 4 -->
+        <rect x="600" width="180" height="90" rx="8" fill="#0e261d" stroke="#164e3b" stroke-width="1" />
+        <text x="616" y="26" fill="#6ee7b7" font-family="-apple-system, sans-serif" font-size="11">RECOMMENDATION</text>
+        <text x="616" y="56" fill="#facc15" font-family="-apple-system, sans-serif" font-size="18" font-weight="700">Urea Low / NPK</text>
+        <text x="616" y="76" fill="#a7f3d0" font-family="-apple-system, sans-serif" font-size="11">Nitrogen replenishment</text>
+      </g>
+
+      <!-- Live Chart -->
+      <g transform="translate(0, 170)">
+        <rect width="780" height="240" rx="8" fill="#0e261d" stroke="#164e3b" stroke-width="1" />
+        <text x="20" y="32" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="14" font-weight="600">Hourly Moisture &amp; Thermal Variation Curves</text>
+        
+        <path d="M 40 180 Q 140 120, 240 140 T 440 90 T 640 110 T 740 70" fill="none" stroke="#10b981" stroke-width="3" />
+        <path d="M 40 150 Q 140 160, 240 110 T 440 140 T 640 90 T 740 120" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4" />
+        
+        <circle cx="240" cy="140" r="5" fill="#34d399" />
+        <circle cx="440" cy="90" r="5" fill="#34d399" />
+        <circle cx="640" cy="110" r="5" fill="#34d399" />
+        <circle cx="740" cy="70" r="5" fill="#34d399" />
+
+        <text x="620" y="32" fill="#34d399" font-family="-apple-system, sans-serif" font-size="11">● Moisture (%)</text>
+        <text x="700" y="32" fill="#38bdf8" font-family="-apple-system, sans-serif" font-size="11">┅ Temp (°C)</text>
+      </g>
+    </g>
+  </g>
+</svg>
